@@ -36,7 +36,7 @@ function LoginForm() {
                 {
                     allEntry.map((curElm)=>{
                         return  (
-                            <div key={email}>
+                            <div>
                                 <p>
                                     {curElm.email}
                                 </p>
